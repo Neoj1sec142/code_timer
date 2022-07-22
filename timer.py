@@ -1,5 +1,12 @@
 import time
-  
+import os
+from tkinter import *
+from tkinter import messagebox as mb
+
+window = Tk()
+window.geometry("600x270")
+window.title("Py Timer App")
+
 # Timer starts
 starttime = time.time()
 lasttime = starttime
