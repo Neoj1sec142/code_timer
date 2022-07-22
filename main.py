@@ -65,6 +65,6 @@ def exit():
 
 Label(win, font =('Serif bold',22), text = 'Start the Timer',bg='white').place(x=105,y=70)
 Button(win, text='START', bd ='2', bg = 'IndianRed1',font =('Serif',10), command = thetimer).place(x=167, y=165)
-Button(win, text='STOP', bd ='2', bg = 'IndianRed1',font =('Serif',10), command = stop_btn).place(x=167, y=205)
+Button(win, text='RESTART', bd ='2', bg = 'IndianRed1',font =('Serif',10), command = stop_btn).place(x=167, y=205)
 Button(win, text='Exit', bd ='2', bg = 'IndianRed1',font =('Serif',10), command = exit).place(x=100, y=165)
 win.mainloop()
